@@ -1,0 +1,14 @@
+.Menu {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.08);
+    &__list { 
+        padding-top: 14px;
+        padding-bottom: 14px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        &-item {
+            padding-left: 20px;
+            font-size: 14px;
+        }
+    }
+}
