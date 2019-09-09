@@ -1,0 +1,24 @@
+.item-container {
+    display: flex;
+    flex-direction: center;
+    flex-wrap: wrap;
+    .item--top {
+        height: 514px;
+        width: 1000px;
+        &__image {
+            height: 100%;
+            width: 100%
+        }
+    }
+    .item__list--bottom {
+        display: flex;
+    }
+    .item__child--bottom {
+        height: 280px;
+        width: 405px;
+        &__image {
+            height: 100%;
+            width: 100%
+        }
+    }
+}
